@@ -1,0 +1,85 @@
+main{
+    min-height: 500px;
+}
+/*Novidades*/
+#section-novidades h4{
+  color: red;
+  font-weight: bold;
+}
+#section-novidades img{
+  margin-left: 25%;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#section-novidades .card{
+  margin: 5px;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  color: white;
+  background-color: #2E2E2E;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#section-banner{
+    min-height: 400px;
+    text-align: center;
+}
+
+#section-banner img{
+    height: 500px;
+    width: 800px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.example-card {
+    max-width: 400px;
+    background-color: #2E2E2E;
+  }
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: auto;
+  }
+  
+  mat-grid-list{
+    margin: 10px 0px;
+  }
+
+  mat-grid-tile{
+    padding: 2px;
+    border-radius: 30px;
+}
+
+mat-card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+mat-card-actions{
+    display: flex;
+    justify-content: space-around;
+  }  
+
+  mat-card-actions p{
+    color: red;
+    font-size: 30px;
+  }
+
+  mat-card img{
+    height: 300px;
+    width: 300px;
+  }
+  mat-card-content{
+    color:white;
+  }
